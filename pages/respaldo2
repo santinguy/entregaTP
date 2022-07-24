@@ -1,0 +1,81 @@
+/*******************/
+/***   GALLERY    ***/
+/*******************/
+
+.gallery{
+	padding-left:40px;
+	margin:5px 0 20px 0;
+}
+
+.sider{
+	float:left;
+}
+
+.outer {
+	float:left;
+	width: 630px; /*to get 600*450*/
+	height: 525px;
+	background-color:#FFFFFF;
+}
+
+.top_line {
+	height: 15px;
+	background-color:#FFFFFF;
+}
+
+.outer_top {
+	height: 450px;
+	margin: 0 15px 0 15px;
+	background-color:#FFFFFF;
+}
+
+.thumb{
+	float:left;
+	width: 80px;
+	height: 60px;	
+}
+
+.thumb-current{
+	float:left;
+	width: 74px;
+	height: 54px;
+	border:solid 5px #555555;	
+}
+
+.link-next-prev{height:81px;width:20px !important;margin-top:185px;}
+.link-next-prev-top{height:81px;width:20px !important;margin-top:185px;}
+.gallery-slides{width:650px !important;}
+.link-next-prev a{background:url(//www.orangesmile.com/img/icon_nav.png) no-repeat scroll 0 0 transparent;width:20px !important;height:81px !important;display:block;text-indent:-9999px;}
+a.link-back{background-position:-25px 0;}
+a.link-back:hover{background-position:-50px 0;}
+a.link-back:active{background-position:-75px 0;}
+a.link-back.disabled{background-position:0 0 !important;}
+a.link-forward{background-position:-150px 0;}
+a.link-forward:hover{background-position:-125px 0;}
+a.link-forward:active{background-position:-100px 0;}
+a.link-forward.disabled{background-position:-175px 0 !important;}
+
+
+#thumbs {   
+    margin: 0 15px 0 15px;
+	height: 60px;
+	background-color:#F6F6F6;
+	
+	width: 600px;
+     text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+#thumbs a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
